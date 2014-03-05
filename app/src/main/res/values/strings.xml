@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tutorial1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">Mobile Challange Cup 2014</string>
+    <string name="title_activity_linear_layout_eg">LinearLayoutEgActivity</string>
+    <string name="title_activity_edit_text_eg">EditTextEgActivity</string>
+    <string name="title_activity_image_view_eg">ImageViewEgActivity</string>
+    <string name="title_activity_text_view_eg">TextViewEgActivity</string>
+
+</resources>

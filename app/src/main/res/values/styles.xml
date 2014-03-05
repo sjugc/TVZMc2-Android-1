@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="tutorial_theme" parent="AppTheme">
+
+
+    </style>
+    <style name="button_style">
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:padding">@dimen/button_padding</item>
+    </style>
+
+</resources>

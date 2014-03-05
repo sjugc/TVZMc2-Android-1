@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.ivankocijan.tutorial1">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/jopac"
+        android:label="@string/app_name"
+        android:theme="@style/tutorial_theme">
+        <activity
+            android:name="com.ivankocijan.tutorial1.activities.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ivankocijan.tutorial1.activities.ActivityEgActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ivankocijan.tutorial1.activities.RelativeLayoutEgActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.ivankocijan.tutorial1.activities.LinearLayoutEgActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_linear_layout_eg">
+        </activity>
+        <activity
+            android:name="com.ivankocijan.tutorial1.activities.EditTextEgActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_edit_text_eg">
+        </activity>
+        <activity
+            android:name="com.ivankocijan.tutorial1.activities.TextViewEgActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_text_view_eg">
+        </activity>
+        <activity
+            android:name="com.ivankocijan.tutorial1.activities.ImageViewEgActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_text_view_eg">
+        </activity>
+
+    </application>
+
+</manifest>
