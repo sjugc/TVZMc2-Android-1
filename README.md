@@ -1,4 +1,4 @@
-# Mobile Challenge Cup tutorial1
+# TVZ Mobile Challenge Cup workshop #1
 
 * Android basics
 * Layout
