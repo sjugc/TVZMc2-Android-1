@@ -14,7 +14,7 @@
               android:textStyle="bold"
               android:textSize="20sp"
               android:gravity="center"
-              android:text="Click on the launcher icon to change image"/>
+              android:text="@string/image_view_activity_title"/>
 
     <ImageView
         android:id="@+id/eg_launcher_icon"

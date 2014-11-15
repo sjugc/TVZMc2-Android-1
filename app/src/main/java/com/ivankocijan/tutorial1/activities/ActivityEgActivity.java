@@ -68,11 +68,19 @@ public class ActivityEgActivity extends Activity {
     protected void onStop () {
         super.onStop();
 
+        Toast.makeText(this, "onRestart", Toast.LENGTH_SHORT).show();
+        Log.d(TAG, "onRestart");
+
+    }
+
+    @Override
+    protected void onRestart () {
+        super.onRestart();
+
         Toast.makeText(this, "onStop", Toast.LENGTH_SHORT).show();
         Log.d(TAG, "onStop");
 
     }
-
 
     @Override
     protected void onDestroy () {

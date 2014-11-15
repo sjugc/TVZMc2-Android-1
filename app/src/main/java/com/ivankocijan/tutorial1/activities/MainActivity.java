@@ -12,7 +12,7 @@ import com.ivankocijan.tutorial1.R;
 
 public class MainActivity extends ActionBarActivity {
 
-    private static final String JOPA_URL = "http://natjecanje.tvz.hr/2014";
+    private static final String JOPA_URL = "http://natjecanje.tvz.hr/";
 
     private Button relativeLayoutEx;
     private Button linearLayoutEx;

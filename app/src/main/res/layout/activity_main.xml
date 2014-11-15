@@ -21,14 +21,14 @@
                   android:textSize="@dimen/title_size"
                   android:padding="@dimen/text_padding"
                   android:textStyle="bold"
-                  android:text="Mobile Challange Cup 2014"/>
+                  android:text="@string/title"/>
 
         <Button
             android:id="@+id/button_liner_layout_ex"
             android:layout_width="@dimen/button_width"
             android:layout_height="@dimen/button_ex_height"
             style="@style/button_style"
-            android:text="Linear layout example"
+            android:text="@string/button_linear_layout"
             />
 
         <Button
@@ -37,35 +37,35 @@
             android:layout_width="@dimen/button_width"
             android:layout_height="@dimen/button_ex_height"
             style="@style/button_style"
-            android:text="Relative layout example"/>
+            android:text="@string/button_relative_layout"/>
 
         <Button
             android:id="@+id/button_text_view_ex"
             android:layout_width="@dimen/button_width"
             android:layout_height="@dimen/button_ex_height"
             style="@style/button_style"
-            android:text="Text View example"/>
+            android:text="@string/button_text_view"/>
 
         <Button
             android:id="@+id/button_image_view_ex"
             android:layout_width="@dimen/button_width"
             android:layout_height="@dimen/button_ex_height"
             style="@style/button_style"
-            android:text="Image View example"/>
+            android:text="@string/button_image_view"/>
 
         <Button
             android:id="@+id/button_edit_text_ex"
             android:layout_width="@dimen/button_width"
             android:layout_height="@dimen/button_ex_height"
             style="@style/button_style"
-            android:text="Edit text example"/>
+            android:text="@string/button_edit_text"/>
 
         <Button
             android:id="@+id/button_activity_ex"
             android:layout_width="@dimen/button_width"
             android:layout_height="@dimen/button_ex_height"
             style="@style/button_style"
-            android:text="Activity example"/>
+            android:text="@string/button_activity_eg"/>
 
     </LinearLayout>
 

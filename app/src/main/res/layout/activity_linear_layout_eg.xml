@@ -17,32 +17,28 @@
                       android:layout_height="200dp">
 
             <Button
-                android:id="@+id/button_id"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="47sp"
-                android:text="Horizontal"/>
+                android:textSize="@dimen/linear_layout_eg_button_text_size"
+                android:text="@string/horizontal"/>
 
             <Button
-                android:id="@+id/button_id"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="47sp"
-                android:text="Horizontal"/>
+                android:textSize="@dimen/linear_layout_eg_button_text_size"
+                android:text="@string/horizontal"/>
 
             <Button
-                android:id="@+id/button_id"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="40sp"
-                android:text="Horizontal"/>
+                android:textSize="@dimen/linear_layout_eg_button_text_size"
+                android:text="@string/horizontal"/>
 
             <Button
-                android:id="@+id/button_id"
                 android:layout_width="wrap_content"
-                android:textSize="50sp"
                 android:layout_height="wrap_content"
-                android:text="Horizontal"/>
+                android:textSize="@dimen/linear_layout_eg_button_text_size"
+                android:text="@string/horizontal"/>
 
         </LinearLayout>
 
@@ -52,32 +48,17 @@
                       android:layout_height="wrap_content">
 
             <Button
-                android:id="@+id/button_id"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="50sp"
-                android:text="Vertical"/>
+                android:textSize="@dimen/linear_layout_eg_button_text_size"
+                android:text="@string/vertical"/>
 
             <Button
-                android:id="@+id/button_id"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="50sp"
-                android:text="Vertical"/>
+                android:textSize="@dimen/linear_layout_eg_button_text_size"
+                android:text="@string/vertical"/>
 
-            <Button
-                android:id="@+id/button_id"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="50sp"
-                android:text="Vertical"/>
-
-            <Button
-                android:id="@+id/button_id"
-                android:layout_width="wrap_content"
-                android:textSize="50sp"
-                android:layout_height="wrap_content"
-                android:text="Vertical"/>
 
         </LinearLayout>
 
@@ -86,36 +67,32 @@
 
 
             <Button
-                android:id="@+id/button_id"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.25"
-                android:textSize="20sp"
-                android:text="Weight"/>
+                android:textSize="@dimen/text_size_btn_weight"
+                android:text="@string/weight"/>
 
             <Button
-                android:id="@+id/button_id"
                 android:layout_width="0dp"
                 android:layout_weight="0.25"
                 android:layout_height="wrap_content"
-                android:textSize="20sp"
-                android:text="Weight"/>
+                android:textSize="@dimen/text_size_btn_weight"
+                android:text="@string/weight"/>
 
             <Button
-                android:id="@+id/button_id"
                 android:layout_width="0dp"
                 android:layout_weight="0.25"
                 android:layout_height="wrap_content"
-                android:textSize="20sp"
-                android:text="Weight"/>
+                android:textSize="@dimen/text_size_btn_weight"
+                android:text="@string/weight"/>
 
             <Button
-                android:id="@+id/button_id"
                 android:layout_width="0dp"
                 android:layout_weight="0.25"
-                android:textSize="20sp"
                 android:layout_height="wrap_content"
-                android:text="Weight"/>
+                android:textSize="@dimen/text_size_btn_weight"
+                android:text="@string/weight"/>
 
         </LinearLayout>
 
