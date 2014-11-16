@@ -5,7 +5,6 @@
 * Resources
 * Activity
 * Android Manifest
-* 
 
 # LICENSE
 
